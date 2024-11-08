@@ -1,0 +1,17 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc = "0.8.24"
+solc-optimizer = true
+solc-optimizer-runs = 99999
+viaIR = true
+
+remappings = [
+    "@openzeppelin/=lib/openzeppelin-contracts/",
+    "ds-test/=lib/forge-std/lib/ds-test/src/",
+    "forge-std/=lib/forge-std/src/"
+    ]
+
+[etherscan]
+base-sepolia = { key = "7EYU58KR7C3A1E54XSZP5IR2J7RBNH46EZ", url = "https://api-sepolia.basescan.org/api" }
