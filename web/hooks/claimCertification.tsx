@@ -7,7 +7,6 @@ import {
   simulateTransaction,
   resolveMethod,
   encode,
-  
 } from "thirdweb";
 import { useSendCalls, useCallsStatus } from "thirdweb/react";
 import { baseSepolia } from "thirdweb/chains";
