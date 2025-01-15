@@ -9,7 +9,6 @@ import "../src/BasedTreasury.sol";
 import "../src/MockUSDC.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 
-
 contract Deploy is Script {
     using Strings for address;
 
