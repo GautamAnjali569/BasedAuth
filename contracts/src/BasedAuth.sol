@@ -7,7 +7,6 @@ import "./interfaces/IERC6551Registry.sol";
 import "./RrpRequesterV0.sol";
 import "./ERC6551Account.sol";
 
-
 /// @title BasedAuth
 /// @author Yudhishthra Sugumaran @ Luca3
 /// @notice This contract manages student registrations and certifications using ERC721 tokens and ERC6551 token-bound accounts
